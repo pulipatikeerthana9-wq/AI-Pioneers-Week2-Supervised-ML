@@ -1,0 +1,20 @@
+Recorded environment: {"python": "3.13.13", "sklearn": "1.6.1", "numpy": "2.3.5", "pandas": "2.2.3"}; scipy=1.17.1
+Commands: python train.py --output-dir results; python -m unittest -v
+test_imputation_and_scaling_training_only (test_project.ProjectTests.test_imputation_and_scaling_training_only) ... /usr/local/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:451: DeprecationWarning: scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.
+  opt_res = optimize.minimize(
+ok
+test_label_mapping (test_project.ProjectTests.test_label_mapping) ... ok
+test_metric_edge_cases (test_project.ProjectTests.test_metric_edge_cases) ... ok
+test_saved_metrics_and_cv_selection (test_project.ProjectTests.test_saved_metrics_and_cv_selection) ... ok
+test_splits_disjoint_and_complete (test_project.ProjectTests.test_splits_disjoint_and_complete) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.154s
+
+OK
+
+Second complete experiment produced identical results.json.
+Source SHA256: e3eece2c15024558c178084bcc33b0608441a495fd7d0c13fdb6392ad3b1e02e
+Report: 4 rendered pages, 1837 words including headings and references.
+Portal description: 265 words.
+No user-local execution or GitHub publishing claimed.
